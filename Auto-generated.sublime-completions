@@ -20,7 +20,7 @@
 		{"trigger": "LogError", "contents": "LogError(${1:\\$message})" },
 		{"trigger": "fileExistsInPath", "contents": "fileExistsInPath(${1:\\$file})" },
 		{"trigger": "convertSlash", "contents": "convertSlash(${1:\\$string})" },
-		{"trigger": "url", "contents": "Router::url(${1:\\$array})" },
-		{"trigger": "connect", "contents": "Router::connect(${1:string}, array('controller' => ${2:controller}, 'action' => ${3:action}), array('${4:param}' => '${5:value}', 'pass' => array('${4:param}')))"}
+		{"trigger": "Router::url", "contents": "Router::url(${1:\\$array})" },
+		{"trigger": "Router::connect", "contents": "Router::connect(${1:string}, array('controller' => ${2:controller}, 'action' => ${3:action}), array('${4:param}' => '${5:value}', 'pass' => array('${4:param}')))" }
   ]
 }
